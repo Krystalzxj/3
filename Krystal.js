@@ -111,7 +111,7 @@ function icon_color(num){
   }else if(num==0){
     return '#bf242a'
   }else{
-    return '#4b5cc4'
+    return '#f2be45'
   }
 }
 $done({
