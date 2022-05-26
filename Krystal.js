@@ -105,11 +105,11 @@ function icon_now(num){
 //>图标颜色
 function icon_color(num){
   if(num<=7 && num>3){
-    return '#F0FCFF'
+    return '#f2be45'
   }else if(num<=3 && num>0){
-    return '#ed5736'
+    return '#f2be45'
   }else if(num==0){
-    return '#bf242a'
+    return '#f2be45'
   }else{
     return '#f2be45'
   }
