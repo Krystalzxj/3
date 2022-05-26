@@ -107,11 +107,11 @@ function icon_color(num){
   if(num<=7 && num>3){
     return '#f2be45'
   }else if(num<=3 && num>0){
-    return '#f2be45'
+    return '#ebd842'
   }else if(num==0){
-    return '#f2be45'
+    return '#3d3b4f'
   }else{
-    return '#f2be45'
+    return '#2edfa3'
   }
 }
 $done({
