@@ -104,13 +104,13 @@ function icon_now(num){
 //>图标颜色
 function icon_color(num){
   if(num<=7 && num>3){
-    return '#f2be45'
+    return '#4b5cc4'
   }else if(num<=3 && num>0){
-    return '#cca4e3'
+    return '#4b5cc4'
   }else if(num==0){
-    return '#e198b4'
+    return '#4b5cc4'
   }else{
-    return '#e9546b'
+    return '#4b5cc4'
   }
 }
 $done({
