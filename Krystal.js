@@ -93,13 +93,13 @@ function datenotice() {
 //>图标依次切换乌龟、兔子、闹钟、礼品盒
 function icon_now(num){
   if(num<=7 && num>3 ){
-    return "hare"
+    return "hare.fill"
   }else if(num<=3 && num>0){
     return "alarm.fill"
   }else if(num==0){
     return "gift"
   }else{
-    return "tortoise"
+    return "tortoise.fill"
   }
 }
 //>图标颜色
@@ -107,11 +107,11 @@ function icon_color(num){
   if(num<=7 && num>3){
     return '#f2be45'
   }else if(num<=3 && num>0){
-    return '#f2be45'
+    return '#e9e4d4'
   }else if(num==0){
-    return '#f2be45'
+    return '#eec362'
   }else{
-    return '#f2be45'
+    return '#e9546b'
   }
 }
 $done({
